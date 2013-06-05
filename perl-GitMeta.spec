@@ -2,14 +2,14 @@
 %define upstream_version 0.01
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.03
+Release:	1
 
 Summary:	Clone/update many Git repositories using Meta repos
 License:	GPL+ or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/~mschilli/%{upstream_name}-%{upstream_version}/lib/%{upstream_name}.pm
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/GitMeta-0.03.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Sysadm::Install)
@@ -47,4 +47,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Mon Apr 25 2011 Sandro Cazzaniga <kharec@mandriva.org> 0.10.0-1mdv2011.0
 + Revision: 658571
 - import perl-GitMeta
+
 
