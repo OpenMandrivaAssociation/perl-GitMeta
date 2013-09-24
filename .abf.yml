@@ -1,4 +1,5 @@
 removed_sources:
   GitMeta-0.01.tar.gz: 9ed0da6b77b2ae16d20f5da1bd454e6b8a44e467
-sources:
   GitMeta-0.03.tar.gz: a91c29f6a0d7b97ea82dbfc6254dcebd67dfcca4
+sources:
+  GitMeta-0.04.tar.gz: 9531d8893b2e1d64326adb2d4a33b58679fcd74a
