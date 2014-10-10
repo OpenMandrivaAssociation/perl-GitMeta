@@ -2,7 +2,7 @@
 %define upstream_version 0.03
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.03
-Release:	1
+Release:	2
 
 Summary:	Clone/update many Git repositories using Meta repos
 License:	GPL+ or Artistic
