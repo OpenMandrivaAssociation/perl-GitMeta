@@ -10,6 +10,7 @@ Group:		Development/Perl
 URL:		https://search.cpan.org/~mschilli/%{upstream_name}-%{upstream_version}/lib/%{upstream_name}.pm
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/GitMeta-0.03.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Sysadm::Install)
 BuildArch:      noarch
