@@ -1,14 +1,14 @@
 %define upstream_name GitMeta
-%define upstream_version 0.03
+%define upstream_version 0.05
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.03
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Clone/update many Git repositories using Meta repos
 License:	GPL+ or Artistic
 Group:		Development/Perl
-URL:		https://search.cpan.org/~mschilli/%{upstream_name}-%{upstream_version}/lib/%{upstream_name}.pm
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/GitMeta-0.03.tar.gz
+URL:		https://github.com/mschilli/gitmeta
+Source0:	https://cpan.metacpan.org/authors/id/M/MS/MSCHILLI/GitMeta-0.05.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
