@@ -1,8 +1,7 @@
 %define upstream_name GitMeta
-%define upstream_version 0.05
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.05
+Release:	2
 
 Summary:	Clone/update many Git repositories using Meta repos
 License:	GPL+ or Artistic
@@ -28,7 +27,7 @@ to move to a new system and create clones of all of your favorite
 git repos with a single command.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build 
 perl Makefile.PL INSTALLDIRS=vendor
